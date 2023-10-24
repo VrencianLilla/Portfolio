@@ -316,6 +316,7 @@ img{
 
 .home__description{
     margin-bottom: var(--mb-2);
+    text-align: justify;
 }
 
 .home__scroll{
@@ -502,6 +503,8 @@ img{
     background-color: var(--first-color);
 }
 
+/*frontend*/
+
 .skills__html{
     width: 90%;
 }
@@ -514,12 +517,51 @@ img{
     width: 90%;
 }
 
-.skills__typescript{
+.skills__angular{
     width: 70%;
 }
 
-/******* itt folytatod *****/
+.skills__kotlin{
+    width:60%;
+}
 
+/*backend*/
+
+.skills__java{
+    width: 90%;
+}
+
+.skills__dotnet{
+    width: 90%;
+}
+
+.skills__csharp{
+    width:70%;
+}
+
+.skills__c{
+    width:90%;
+}
+
+.skills__mysql{
+    width:90%;
+}
+
+.skills__plsql{
+    width:65%;
+}
+
+.skills__nosql{
+    width:65%;
+}
+
+.skills__docker{
+    width:90%;
+}
+
+.skills__postman{
+    width:90%;
+}
 
 .skills__close .skills__list{
     height: 0;
@@ -575,6 +617,11 @@ img{
 }
 
 .qualification__calendar{
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+}
+
+.qualification__location{
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
 }
