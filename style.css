@@ -775,6 +775,7 @@ img{
 
 .portfolio__description{
     margin-bottom: var(--mb-0-75);
+    text-align: justify;
 }
 
 .portfolio__button:hover .button__icon{
