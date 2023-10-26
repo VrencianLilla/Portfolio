@@ -563,6 +563,10 @@ img{
     width:90%;
 }
 
+.skills__python{
+    width: 60%;
+}
+
 .skills__close .skills__list{
     height: 0;
     overflow: hidden;
